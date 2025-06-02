@@ -9,16 +9,18 @@ using Microsoft.Extensions.Options;
 namespace EmployeesApp.Terminal;
 internal class Program
 {
-    
+
+
+    static void Main(string[] args)
+    {
+        // ListAllEmployees();
+        // ListEmployee(562);
+    }
     /*
     //static readonly EmployeeService employeeService = new(new EmployeeRepository(new EmployeeContext(options: ));
    
 
-    static void Main(string[] args)
-    {
-        ListAllEmployees();
-        ListEmployee(562);
-    }
+    
 
     private static void ListAllEmployees()
     {
