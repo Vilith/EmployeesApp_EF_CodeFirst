@@ -1,6 +1,6 @@
 ﻿using EmployeesApp.Application.Employees.Interfaces;
-using EmployeesApp.Domain.Entities;
 using EmployeesApp.Web.Models;
+using EmployeesApp.Domain.Entities;
 using EmployeesApp.Web.Views.Employees;
 using Microsoft.AspNetCore.Mvc;
 

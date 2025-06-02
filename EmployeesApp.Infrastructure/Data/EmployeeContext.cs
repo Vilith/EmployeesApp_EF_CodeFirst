@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace EmployeesApp.Web.Data
+namespace EmployeesApp.Infrastructure.Data
 {
     public class EmployeeContext(DbContextOptions<EmployeeContext> options) : DbContext(options)
     {
